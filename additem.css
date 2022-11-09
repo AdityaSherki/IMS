@@ -1,0 +1,68 @@
+
+.container {
+  position: absolute;
+  left: 340px;
+  top: 100px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 1110px;
+}
+
+.pgname > p {
+  color:#748da6;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 14px;
+  margin-left: 10px;
+}
+
+.pgname {
+  margin: 7px 0px 7px 0px;
+  width: 300px;
+  height: 90px;
+}
+
+
+.additem {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+}
+
+.iname {
+  margin: 7px;
+}
+
+.icategory {
+  margin: 7px;
+}
+.iprice {
+  margin: 7px;
+}
+
+.iadd > img {
+  width: 140px;
+  height: 140px;
+}
+.iupdate {
+  margin: 7px;
+}
+
+input {
+  width: 130px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  background-color: gainsboro;
+  padding: 4px;
+}
+
+.tb-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.tb-container > h4 {
+  margin: 20px 0px 20px 0px;
+}
